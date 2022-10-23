@@ -25,3 +25,9 @@ em {
 .warning {
   color: #d19e2a;
 }
+
+@media only screen and (max-width: 450px) {
+.logo {
+    max-width:200px;
+}
+}
