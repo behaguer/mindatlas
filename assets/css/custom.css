@@ -1,0 +1,27 @@
+body {
+  background-image: url(/assets/images/office.png);
+  background-position: center center;
+  background-size: contain;
+}
+body > .uk-container {
+  background-color: #f8f8f8;
+}
+.body-wrapper {
+  padding: 20px;
+  min-height: calc( 100vh - 40px );
+}
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: #ffffff;
+}
+.uk-navbar-left {
+  width: 50px;
+}
+em {
+  color: #adadad;
+}
+.success {
+  color: #6ab92e;
+}
+.warning {
+  color: #d19e2a;
+}
